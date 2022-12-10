@@ -1,21 +1,21 @@
 .home-header h1 {
-    color: #f5f5f5;
+    color: #000000;
     font-size: 3em;
 }
 
 .main-name {
-    color: #F6F2D4;
+    color: #000000;
 }
 
 .Typewriter__wrapper {
     font-size: 2.8em;
-    color: #f5f5f5;
+    color: #000000;
     font-weight: 600;
 
 }
 .Typewriter__cursor {
     font-size: 2.4em;
-    color: #f5f5f5;
+    color: #1fcc3c;
 }
 
 .about {
