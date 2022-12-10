@@ -1,149 +1,97 @@
 import React from 'react'
 import {AiFillGithub} from "react-icons/ai";
 import {SiMedium} from "react-icons/si";
-import fastapiSklearn from "../images/fastapi_sklearn.png"
+import {RiArticleFill} from "react-icons/ri";
+import ciaca from "../images/ciaca.png"
+import gcaiot from "../images/gcaiot.png"
+import enegep from "../images/enegep.png"
+import simpep from "../images/simpep.png"
+import wcnps from "../images/wcnps.png"
+import jhi from "../images/jhi.png"
 
 const blogConfig = [
     {
         id: "blog-8",
-        title: "How to Solve Scheduling Problems in Python",
+        title: "Signal Quality Asessment of Photoplethysmogram Signals Using Hybrid Rule and Learning-Based Models",
         links: [
             {
-                name: "article",
-                url: "https://towardsdatascience.com/how-to-solve-scheduling-problems-in-python-36a9af8de451",
-                icon: <SiMedium/>
+                name: "to be published",
+                url: "https://jhi.sbis.org.br/index.php/jhi-sbis",
+                icon: <RiArticleFill/>
             }
         ],
-        image: "https://miro.medium.com/max/700/1*VKIGzmJrYBzcPlB6USx8OA.jpeg",
-        description: "Use linear programming to minimize the difference between required and scheduled resources.",
+        image: jhi,
+        description: "Paper accepted and to be published at CBIS, one of the largest Digital Health Congress in Latin America discussing the application of learning-based models at deep learning architectures to increase battery lifetime on limited resources devices.",
         target: "_blank"
     },
     {
         id: "blog-7",
-        title: "Adaptive Parameters Methods for Machine Learning",
+        title: "Solid waste management and monitoring system for smart cities: development of a low-cost sustainable IoT architecture using GPRS/GSM",
         links: [
             {
-                name: "article",
-                url: "https://towardsdatascience.com/adaptive-parameters-methods-for-machine-learning-6f7101a9a71",
-                icon: <SiMedium/>
+                name: "paper",
+                url: "https://ieeexplore.ieee.org/document/9626317",
+                icon: <RiArticleFill/>
             }
         ],
-        image: "https://miro.medium.com/max/700/1*DeZYSLcMdF58BeqemGhUhg.jpeg",
-        description: "Let's explore some methods to adapt your parameters over time.",
+        image: wcnps,
+        description: "Paper published in the Workshop on Communication Networks and Power Systems (WCNPS) on the development of a low-cost and sustainable waste monitoring system in smart cities using GPRS/GSM, focused on battery saving.",
         target: "_blank"
     },
     {
         id: "blog-6",
-        title: "Evolutionary Feature Selection for Machine Learning",
+        title: "Internet of Things System for Data Monitoring and Decision Making on the Selective Garbage Collection in Smart Cities",
         links: [
             {
-                name: "article",
-                url: "https://towardsdatascience.com/evolutionary-feature-selection-for-machine-learning-7f61af2a8c12",
-                icon: <SiMedium/>
+                name: "paper",
+                url: "https://ciawi-conf.org/wp-content/uploads/2021/11/19.2-02.pdf",
+                icon: <RiArticleFill/>
             }
         ],
-        image: "https://miro.medium.com/max/1400/1*hgFe2YFnwzt_K2TfE7aSrQ.jpeg",
-        description: "Learn how to make feature selection for machine learning algorithms using evolutionary models.",
+        image: ciaca,
+        description: "Best paper of the IADIS Ibero-American Conferences WWW/Internet and Applied Computing 2021 on the development of an internet of things system for monitoring waste data in selective collection containers in smart cities composed of hardware and software to facilitate the decision-making.(PT-BR) only",
         target: "_blank"
     },
     {
         id: "blog-5",
-        title: "Real-time anomaly detection with Apache Kafka and Python",
+        title: "Technological Solution Development During the COVID-19 Pandemic: a Case Study in an IoT Lab",
         links: [
             {
-                name: "article",
-                url: "https://towardsdatascience.com/real-time-anomaly-detection-with-apache-kafka-and-python-3a40281c01c9",
-                icon: <SiMedium/>
-            },
-            {
-                name: "repo",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection",
-                icon: <AiFillGithub/>
+                name: "paper",
+                url: "https://ieeexplore.ieee.org/document/9345864",
+                icon: <RiArticleFill/>
             }
         ],
-        image: "https://miro.medium.com/max/1400/1*Xem1rbG0Fa8DAhtez7mvsA.jpeg",
-        description: "Learn how to make predictions over streaming data coming from Kafka using Python.",
+        image: gcaiot,
+        description: "Paper published at the 2020 IEEE Global Conference on Artificial Intelligence and Internet of Things (GCAIoT) in Dubai, United Arab Emirates on the development of a technological solution during a pandemic to help combat it in the environment of an IoT laboratory.",
         target: "_blank"
     },
     {
         id: "blog-4",
-        title: "Serve a machine learning model using Sklearn, FastAPI, and Docker",
+        title: "Applying demand forecast and stock management methods at a traditional japanese restaurant at Brasília-DF",
         links: [
             {
-                name: "article",
-                url: "https://medium.com/analytics-vidhya/serve-a-machine-learning-model-using-sklearn-fastapi-and-docker-85aabf96729b",
-                icon: <SiMedium/>
-            },
-            {
-                name: "repo",
-                url: "https://github.com/rodrigo-arenas/fast-ml-deploy",
-                icon: <AiFillGithub/>
+                name: "paper",
+                url: "https://abepro.org.br/biblioteca/TN_STO_000_1635_38059.pdf",
+                icon: <RiArticleFill/>
             }
         ],
-        image: fastapiSklearn,
-        description: "Get your model machine learning model to production as a containerized API.",
+        image: enegep,
+        description: "Paper published at the 2019 National Meeting Of Production Engineering (ENEGEP) in Santos, São Paulo, Brasil about demand forecasting and stock management using the ABC analysis and multiple methods of forecasting.(PT-BR) only.",
         target: "_blank"
     },
     {
         id: "blog-3",
-        title: "Are You Still Using Grid Search for Hyperparameters Optimization?",
+        title: "Application Of Quality Tools in a Chocolate Factory",
         links: [
             {
-                name: "article",
-                url: "https://towardsdatascience.com/hyperparameters-tuning-from-grid-search-to-optimization-a09853e4e9b8",
-                icon: <SiMedium/>
+                name: "paper",
+                url: "https://simpep.feb.unesp.br/abrir_arquivo_pdf.php?tipo=artigo&evento=14&art=913&cad=36109&opcao=com_id",
+                icon: <RiArticleFill/>
             }
         ],
-        image: "https://miro.medium.com/max/1400/0*ZYC4nQw8g2dv7GCp",
-        description: "Let's discuss the ideas behind how to search in a smart fashion the hyperparameters for your machine learning models.",
-        target: "_blank"
-    },
-    {
-        id: "blog-2",
-        title: "Tune Your Scikit-learn Model Using Evolutionary Algorithms",
-        links: [
-            {
-                name: "article",
-                url: "https://towardsdatascience.com/tune-your-scikit-learn-model-using-evolutionary-algorithms-30538248ac16",
-                icon: <SiMedium/>
-            }
-        ],
-        image: "https://miro.medium.com/max/1400/1*gmNunOZ86_URtnzuOA7oNg.jpeg",
-        description: "Scikit-learn hyperparameters tuning with evolutionary algorithms and cross-validation.",
-        target: "_blank"
-    },
-    {
-        id: "blog-1",
-        title: "Manage your machine learning life cycle with MLflow in Python",
-        links: [
-            {
-                name: "article",
-                url: "https://medium.com/analytics-vidhya/manage-your-machine-learning-lifecycle-with-mlflow-in-python-d678d5f3c682",
-                icon: <SiMedium/>
-            },
-            {
-                name: "repo",
-                url: "https://github.com/rodrigo-arenas/mlflow-basics",
-                icon: <AiFillGithub/>
-            }
-        ],
-        image: "https://miro.medium.com/max/1400/1*FhKrMpcUPeZxNsZpKNv4BA.png",
-        description: "Enable collaboration across data scientists; gain control over different models versions, " +
-            "multiple experiments within the same problem, and models management and deployment.",
-        target: "_blank"
-    },
-    {
-        id: "blog-0",
-        title: "Workforce planning optimization using Python",
-        links: [
-            {
-                name: "article",
-                url: "https://towardsdatascience.com/workforce-planning-optimization-using-python-69af0ef9011a",
-                icon: <SiMedium/>
-            }
-        ],
-        image: "https://miro.medium.com/max/1400/1*UDnhOFK35IbAPx15wkMgVg.jpeg",
-        description: "Learn how to find the optimal number of positions needed to manage incoming traffic.",
+        image: simpep,
+        description: "Paper published at the XXVI Production Engineering Symposium (SIMPEP) in Bauru, São Paulo, Brasil about applying quality methodologys within a chocolate factory with a bean to bar concept. The pareto and ishikawa diagrams were applied and improvements were made to mitigate these problems.(PT-BR) only.",
         target: "_blank"
     }
 ]

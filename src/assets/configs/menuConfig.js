@@ -28,7 +28,7 @@ const menuConfig = {
         },
         {
             id: "menu-2",
-            title: "Blogs",
+            title: "Papers",
             path: "/blogs",
             icon: <BsMedium size={35}/>,
             className: "nav-text"

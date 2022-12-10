@@ -2,7 +2,9 @@ import React from 'react'
 import {BsClipboardData} from "react-icons/bs";
 import {DiCodeigniter} from "react-icons/di";
 import {SiSamsung} from "react-icons/si";
-import {FcElectronics} from "react-icons/fc"
+import {FcElectronics} from "react-icons/fc";
+import {BsPeople} from "react-icons/bs";
+import {FaUniversity} from "react-icons/fa";
 import {GiCommercialAirplane} from "react-icons/gi";
 import {FaMobileAlt} from "react-icons/fa";
 
@@ -26,10 +28,10 @@ const homeConfig = {
     workTimeline: [
         {
             id: "work-3",
-            title: "Jr Data Scientist",
+            title: "Data Scientist",
             company: "Samsung R&D Institute Brazil",
             description: "Sensor data analysis and prediction on wearables." +
-                "Works with data pre-processing, labeling, feature engineering, model choice and evaluation.",
+                "Works with data processing pipelines, labeling, feature engineering, model choice and evaluation.",
             date: "2021-present",
             icon: <SiSamsung/>,
             tags: ["python", "matlab", "c", "machine learning", "deep learning"]
@@ -46,22 +48,22 @@ const homeConfig = {
         },
         {
             id: "work-1",
-            title: "CRM Analytics Coordinator",
-            company: "Avianca",
-            description: "Tech leader of a BI, Data Science and DBA team. " +
-                "Build forecast models, data warehouse and Power BI dashboards.",
-            date: "2018-2019",
-            icon: <GiCommercialAirplane/>,
-            tags: ["ml", "mssql", "python", "docker", "pbi", "azure"]
+            title: "People Analytics Intern",
+            company: "Stefanini",
+            description: "HR analysis, such as recruitment and selection numbers" +
+                "and glassdoor web scraping analysis for turnover reduction.",
+            date: "2021-2021",
+            icon: <BsPeople/>,
+            tags: ["powerbi", "excel", "python"]
         },
         {
             id: "work-0",
-            title: "BI Analyst",
-            company: "Onelink BPO",
-            description: "Build interactive dashboards, ETLs and SQL queries to show the company KPIs.",
-            date: "2016-2018",
-            icon: <BsClipboardData/>,
-            tags: ["python", "mssql", "pbi", "excel"]
+            title: " B.E Production Engineering",
+            company: "Universidade de Brasília - UnB",
+            description: "Final project envolving Optimizing the Logistic Routes of Selective Collection Trucks using Internet of Things at a course based on PBL (Problem-Based Learning)",
+            date: "2015-2021",
+            icon: <FaUniversity/>,
+            tags: ["operations research", "product development", "optimization","project and risk management","quality tools","process mapping"]
         }
     ]
 }

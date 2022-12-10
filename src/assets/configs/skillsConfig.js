@@ -13,7 +13,19 @@ import {
     SiSnowflake,
     SiApacheairflow,
     SiApachekafka,
-    SiPowerbi
+    SiPowerbi,
+    SiScikitlearn,
+    SiPandas,
+    SiNumpy,
+    SiTensorflow,
+    SiOpencv,
+    SiFlask,
+    SiR,
+    SiMatrix,
+    SiCplusplus,
+    TfiLinux,
+    SiAzurefunctions,
+    SiLinux
 } from "react-icons/si";
 import {GrMysql} from "react-icons/gr";
 import {FaGitAlt} from "react-icons/fa";
@@ -31,82 +43,82 @@ const skillsConfig = {
         {
             id: "skills-1",
             className: "skill-icon",
-            icon: <SiPostgresql size={50}/>,
-            text: "Postgres"
+            icon: <SiScikitlearn size={50}/>,
+            text: "Scikit-learn"
         },
         {
             id: "skills-2",
             className: "skill-icon",
-            icon: <SiMicrosoftsqlserver size={50}/>,
-            text: "MSSQL"
+            icon: <SiPandas size={50}/>,
+            text: "pandas"
         },
         {
             id: "skills-3",
             className: "skill-icon",
-            icon: <SiDocker size={50}/>,
-            text: "Docker"
+            icon: <SiNumpy size={50}/>,
+            text: "numpy"
         },
         {
             id: "skills-4",
             className: "skill-icon",
-            icon: <SiMicrosoftazure size={50}/>,
-            text: "Azure"
+            icon: <SiTensorflow size={50}/>,
+            text: "Tensorflow"
         },
         {
             id: "skills-5",
             className: "skill-icon",
-            icon: <FaGitAlt size={50}/>,
-            text: "Git"
+            icon: <SiOpencv size={50}/>,
+            text: "OpenCV"
         }
     ],
     complementarySkills: [
         {
             id: "skills-5",
             className: "skill-icon",
-            icon: <GrMysql size={50}/>,
-            text: "MySQL"
+            icon: <SiR size={50}/>,
+            text: "R"
         },
         {
             id: "skills-6",
             className: "skill-icon",
-            icon: <SiRedis size={50}/>,
-            text: "Redis"
+            icon: <SiMatrix size={50}/>,
+            text: "MATLAB"
         },
         {
             id: "skills-7",
             className: "skill-icon",
-            icon: <SiWindowsterminal size={50}/>,
-            text: "Bash"
+            icon: <SiCplusplus size={50}/>,
+            text: "C/C++"
         },
         {
             id: "skills-8",
             className: "skill-icon",
-            icon: <SiSnowflake size={50}/>,
-            text: "Snowflake"
+            icon: <SiPowerbi size={50}/>,
+            text: "Microsoft Power BI"
         },
         {
             id: "skills-9",
             className: "skill-icon",
-            icon: <SiApacheairflow size={50}/>,
-            text: "Airflow"
+            icon: <SiPostgresql size={50}/>,
+            text: "Postgres"
         },
         {
             id: "skills-10",
             className: "skill-icon",
-            icon: <SiJavascript size={50}/>,
-            text: "JS"
+            icon: <SiFlask size={50}/>,
+            text: "Flask"
         },
         {
             id: "skills-11",
             className: "skill-icon",
-            icon: <SiCss3 size={50}/>,
-            text: "CSS 3"
+            icon: <FaGitAlt size={50}/>,
+            text: "Git"
         },
         {
             id: "skills-12",
             className: "skill-icon",
-            icon: <SiHtml5 size={50}/>,
-            text: "HTML 5"
+            icon: <SiMicrosoftazure size={50}/>,
+            text: "Azure AI"
         },
         {
             id: "skills-13",
@@ -118,15 +130,15 @@ const skillsConfig = {
         {
             id: "skills-14",
             className: "skill-icon",
-            icon: <SiApachekafka size={50}/>,
-            text: "Kafka"
+            icon: <SiDocker size={50}/>,
+            text: "Docker"
         }
         ,
         {
             id: "skills-15",
             className: "skill-icon",
-            icon: <SiPowerbi size={50}/>,
-            text: "Power BI"
+            icon: <SiLinux size={50}/>,
+            text: "Linux"
         }
     ]
 }
