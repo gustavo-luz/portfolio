@@ -14,7 +14,7 @@ const footerConfig = {
         },
         {
             id: "footer-1",
-            url: "hhttps://www.linkedin.com/in/gustavo-luz-unb/",
+            url: "https://www.linkedin.com/in/gustavo-luz-unb/",
             className: "social-icon",
             target: "_blank",
             icon: <FaLinkedinIn size={50}/>
