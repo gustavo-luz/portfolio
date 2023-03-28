@@ -8,6 +8,7 @@ import enegep from "../images/enegep.png"
 import simpep from "../images/simpep.png"
 import wcnps from "../images/wcnps.png"
 import jhi from "../images/jhi.png"
+import bdm from "../images/bdm_logo_2018.png"
 
 const blogConfig = [
     {
@@ -26,6 +27,20 @@ const blogConfig = [
     },
     {
         id: "blog-7",
+        title: "Optimization of Logistics Routes of Selective Collection Trucks using the Internet of Things: a Case Study",
+        links: [
+            {
+                name: "paper",
+                url: "https://bdm.unb.br/handle/10483/34144",
+                icon: <RiArticleFill/>
+            }
+        ],
+        image: bdm,
+        description: "Graduation Project published at University of Brasília repository.This work deals with the application of a logistic route optimization model in a company in Brasília-DF, using the CRISP-DM data mining methodology and Google OR-Tools software to solve the Capacitated Vehicle Routing Problem. Reduction of 8.5% in the distance spent and 17% in the time spent per route of Selective Collection Trucks.(PT-BR) only.",
+        target: "_blank"
+    },
+    {
+        id: "blog-6",
         title: "Solid waste management and monitoring system for smart cities: development of a low-cost sustainable IoT architecture using GPRS/GSM",
         links: [
             {
@@ -39,12 +54,12 @@ const blogConfig = [
         target: "_blank"
     },
     {
-        id: "blog-6",
+        id: "blog-5",
         title: "Internet of Things System for Data Monitoring and Decision Making on the Selective Garbage Collection in Smart Cities",
         links: [
             {
                 name: "paper",
-                url: "https://ciawi-conf.org/wp-content/uploads/2021/11/19.2-02.pdf",
+                url: "https://www.iadisportal.org/digital-library/sistema-de-internet-das-coisas-para-monitoramento-de-dados-e-tomada-de-decis%C3%B5es-quanto-%C3%A0-coleta-seletiva-de-lixo-em-cidades-inteligentes",
                 icon: <RiArticleFill/>
             }
         ],
@@ -53,7 +68,7 @@ const blogConfig = [
         target: "_blank"
     },
     {
-        id: "blog-5",
+        id: "blog-4",
         title: "Technological Solution Development During the COVID-19 Pandemic: a Case Study in an IoT Lab",
         links: [
             {
@@ -67,7 +82,7 @@ const blogConfig = [
         target: "_blank"
     },
     {
-        id: "blog-4",
+        id: "blog-3",
         title: "Applying demand forecast and stock management methods at a traditional japanese restaurant at Brasília-DF",
         links: [
             {
@@ -81,7 +96,7 @@ const blogConfig = [
         target: "_blank"
     },
     {
-        id: "blog-3",
+        id: "blog-2",
         title: "Application Of Quality Tools in a Chocolate Factory",
         links: [
             {
@@ -94,6 +109,8 @@ const blogConfig = [
         description: "Paper published at the XXVI Production Engineering Symposium (SIMPEP) in Bauru, São Paulo, Brasil about applying quality methodologys within a chocolate factory with a bean to bar concept. The pareto and ishikawa diagrams were applied and improvements were made to mitigate these problems.(PT-BR) only.",
         target: "_blank"
     }
+
+    
 ]
 
 export default blogConfig
