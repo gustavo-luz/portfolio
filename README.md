@@ -10,6 +10,13 @@ The page mainly uses React and react-bootstrap and is inspired by open-source co
 to run it:
 
 ```
+npm run build
+npm start
+```
+
+to deploy to github pages:
+
+```
 npm run deploy
 ```
 

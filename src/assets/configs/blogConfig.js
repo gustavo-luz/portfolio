@@ -8,7 +8,7 @@ import enegep from "../images/enegep.png"
 import simpep from "../images/simpep.png"
 import wcnps from "../images/wcnps.png"
 import jhi from "../images/jhi.png"
-import bdm from "../images/bdm_logo_2018.png"
+import bdm from "../images/bdm.png"
 
 const blogConfig = [
     {
