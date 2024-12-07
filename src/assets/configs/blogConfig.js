@@ -9,20 +9,80 @@ import simpep from "../images/simpep.png"
 import wcnps from "../images/wcnps.png"
 import jhi from "../images/jhi.png"
 import bdm from "../images/bdm.png"
+import sbrc from "../images/sbrc.png"
+import scirep from "../images/scirep.svg"
+import iotj from "../images/iotj.jpg"
+import bracis from "../images/bracis.png"
 
 const blogConfig = [
+    {
+        id: "blog-12",
+        title: "Smart Parking with Pixel-Wise ROI Selection for Vehicle Detection Using YOLOv8, YOLOv9, YOLOv10, and YOLOv11",
+        links: [
+            {
+                name: "to be published",
+                url: "https://arxiv.org/abs/2412.01983",
+                icon: <RiArticleFill/>
+            }
+        ],
+        image: bracis,
+        description: "Paper under review by Elsevier Internet of Things, already available as a preprint at arxiv. This paper introduces a novel approach that integrates Internet of Things, Edge Computing, and Deep Learning concepts, by using the latest YOLO models for vehicle detection. The proposed system achieved 99.68% balanced accuracy on a custom dataset.",
+        target: "_blank"
+    },
+    {
+        id: "blog-11",
+        title: "An Evaluation of Temporal Neighborhood Coding Variants in Smartphone-Based Human Activity Recognition",
+        links: [
+            {
+                name: "to be published",
+                url: "https://drive.google.com/drive/folders/1qWElWd2abZtFZDUtP7Z1ou-u8w9Rynf9",
+                icon: <RiArticleFill/>
+            }
+        ],
+        image: iotj,
+        description: "Paper accepted at the 34th Brazilian Conference on Intelligent Systems (BRACIS), the most important event in Brazil for researchers interested in publishing significant and novel results related to Artificial and Computational Intelligence.The focus of this work was to This paper systematically evaluates different variations of a self-supervised learning technique named TNC for HAR, reaching 95% accuracy in the UCI dataset with raw data. The work will be published at Springer in Lecture Notes in Artificial Intelligence (LNAI) series.",
+        target: "_blank"
+    },
+    {
+        id: "blog-10",
+        title: "Repurposing of TV Boxes for a Circular Economy in Smart Cities Applications",
+        links: [
+            {
+                name: "to be published",
+                url: "https://www.researchsquare.com/article/rs-4619533/v1",
+                icon: <RiArticleFill/>
+            }
+        ],
+        image: scirep,
+        description: "Paper under review by scientific reports, already available as a preprint at research square. This paper explores the feasibility of repurposing TV Boxes for people counting applications at the edge in smart cities, focusing on the circular economy concept. The focus is to perform a stress test to see how these devices behave measuring failures and carbon emissions.",
+        target: "_blank"
+    },
+    {
+        id: "blog-9",
+        title: "Repurposing of TV Boxes for People Counting Applications at the Edge in Smart Cities",
+        links: [
+            {
+                name: "paper",
+                url: "https://sol.sbc.org.br/index.php/courb/article/view/30000",
+                icon: <RiArticleFill/>
+            }
+        ],
+        image: sbrc,
+        description: "Paper accepted, presented at Workshop de Computação Urbana (Courb), event to discuss urban computing applications held in conjunction with the Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos (SBRC). It was invited for an extended version at journal of internet services and applications",
+        target: "_blank"
+    },
     {
         id: "blog-8",
         title: "Signal Quality Asessment of Photoplethysmogram Signals Using Hybrid Rule and Learning-Based Models",
         links: [
             {
-                name: "to be published",
-                url: "https://jhi.sbis.org.br/index.php/jhi-sbis",
+                name: "paper",
+                url: "https://jhi.sbis.org.br/index.php/jhi-sbis/article/view/1080",
                 icon: <RiArticleFill/>
             }
         ],
         image: jhi,
-        description: "Paper accepted and to be published at CBIS, one of the largest Digital Health Congress in Latin America discussing the application of learning-based models at deep learning architectures to increase battery lifetime on limited resources devices.",
+        description: "Paper accepted, presented at Congresso Brasileiro de Informática em Saúde (CBIS), one of the largest Digital Health Congress in Latin America discussing the application of learning-based models at deep learning architectures to increase battery lifetime on limited resources devices. It was published at journal of health informatics",
         target: "_blank"
     },
     {

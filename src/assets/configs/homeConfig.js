@@ -21,18 +21,36 @@ const homeConfig = {
         "Brazilian"
     ],
     about: {
-        start: "I've been working for over 3 years on data science and internet of things projects. " +
+        start: "I've been working for over 5 years on data science and internet of things projects. " +
             "I'm excited by applying machine learning and deep learning techniques at data collected by sensors",
         exit: "I have experience with Python, R, Matlab, C++, BI tools, and more skills showed at this portfolio "
     },
     workTimeline: [
+        {
+            id: "work-5",
+            title: "Lab Researcher",
+            company: "HIAAC",
+            description: "working with self-supervised learning for representation knowledge on human activity recognition for smartphones",
+            date: "2024-Present",
+            icon: <FaUniversity/>,
+            tags: ["python","deep learning", "self-supervised learning"]
+        },
+        {
+            id: "work-4",
+            title: " Msc Student Computer Science",
+            company: "Universidade Estadual de Campinas - Unicamp",
+            description: "developing smart campus solutions with Deep Learning. I am also part of a independent multidisciplinary research group working on the prediction of diabetes using only social determinants of health data. ",
+            date: "2023-Present",
+            icon: <FaUniversity/>,
+            tags: ["python","internet of things", "deep learning", "computer vision"]
+        },
         {
             id: "work-3",
             title: "Data Scientist",
             company: "Samsung R&D Institute Brazil",
             description: "Sensor data analysis and prediction on wearables." +
                 "Works with data processing pipelines, labeling, feature engineering, model choice and evaluation.",
-            date: "2021-present",
+            date: "2021-2023",
             icon: <SiSamsung/>,
             tags: ["python", "matlab", "c", "machine learning", "deep learning"]
         },
