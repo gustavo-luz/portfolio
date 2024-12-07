@@ -25,7 +25,7 @@ const blogConfig = [
                 icon: <RiArticleFill/>
             }
         ],
-        image: bracis,
+        image: iotj,
         description: "Paper under review by Elsevier Internet of Things, already available as a preprint at arxiv. This paper introduces a novel approach that integrates Internet of Things, Edge Computing, and Deep Learning concepts, by using the latest YOLO models for vehicle detection. The proposed system achieved 99.68% balanced accuracy on a custom dataset.",
         target: "_blank"
     },
@@ -39,7 +39,7 @@ const blogConfig = [
                 icon: <RiArticleFill/>
             }
         ],
-        image: iotj,
+        image: bracis,
         description: "Paper accepted at the 34th Brazilian Conference on Intelligent Systems (BRACIS), the most important event in Brazil for researchers interested in publishing significant and novel results related to Artificial and Computational Intelligence.The focus of this work was to This paper systematically evaluates different variations of a self-supervised learning technique named TNC for HAR, reaching 95% accuracy in the UCI dataset with raw data. The work will be published at Springer in Lecture Notes in Artificial Intelligence (LNAI) series.",
         target: "_blank"
     },
